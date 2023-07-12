@@ -14,6 +14,13 @@
   max-width: 1012px;
   padding: 15px 0 15px 0;
   margin: 0 auto 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.link__gallery {
+  margin-left: 24px;
+  font-size: 20px;
 }
 
 .logo {
@@ -21,7 +28,6 @@
 }
 
 .logo__git {
-  display: block;
   height: 30px;
   width: 30px;
   fill: #ffffff;
@@ -88,4 +94,12 @@ a {
 
 .mr {
   margin-right: 24px !important;
+}
+
+.img_gallery {
+  height: 500px;
+}
+
+.link__color {
+  color: #ffffff;
 }
